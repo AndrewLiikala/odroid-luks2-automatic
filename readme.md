@@ -79,6 +79,7 @@ This script performs a "Side-Load" encryption process to bypass the Odroid's rea
 To adapt this for Odroid C4, N2+, or M1, you must modify the following variables in the `Generate Boot Script` section:
 * **DTB Path:** Change `s7d_s905x5m_odroidc5.dtb` to your board's specific Device Tree.
 * **UART Address:** Update `0xfe07a000` to your SoC's UART base address (e.g., S905X3 uses `0xff803000`).
+
 ##Goals
 [ ] port to odroid-c4
 [ ] port to c2
